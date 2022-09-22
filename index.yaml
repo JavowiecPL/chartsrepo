@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  secondchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-22T22:33:25.170627989+02:00"
+    dependencies:
+    - name: tomcat
+      repository: https://charts.bitnami.com/bitnami
+      version: ^10.4.3
+    description: A Helm chart for Kubernetes
+    digest: bb572eb2f4e261cf982b4c4bbecf8e4cc6551310a42410053cabaef85f3c9c33
+    name: secondchart
+    type: application
+    urls:
+    - secondchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-22T22:33:25.166632298+02:00"
