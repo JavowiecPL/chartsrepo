@@ -3,16 +3,31 @@ entries:
   secondchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-22T22:33:25.170627989+02:00"
+    created: "2022-09-22T23:27:48.864835308+02:00"
     dependencies:
     - name: tomcat
       repository: https://charts.bitnami.com/bitnami
       version: ^10.4.3
     description: A Helm chart for Kubernetes
-    digest: bb572eb2f4e261cf982b4c4bbecf8e4cc6551310a42410053cabaef85f3c9c33
+    digest: 7ef9ff4c89dc0cac94774e40e508a506c544eb4b6e3eea88505f53dd9891081c
     name: secondchart
     type: application
     urls:
     - secondchart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-22T22:33:25.166632298+02:00"
+  securedsecondchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-22T23:27:48.867428734+02:00"
+    dependencies:
+    - name: tomcat
+      repository: https://charts.bitnami.com/bitnami
+      version: ^10.4.3
+    description: A Helm chart for Kubernetes
+    digest: 8e7f93611f448548a16f18ca8d8bb2468de4aab22e998ec46396ba0ca9205d47
+    name: securedsecondchart
+    type: application
+    urls:
+    - securedsecondchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-22T23:27:48.861897131+02:00"
