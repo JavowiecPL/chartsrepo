@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.16.0
+dependencies:
+- - name: mysql
+  repository: https://charts.bitnami.com/bitnami
+  version: 8.8.35
+description: A Helm chart for Kubernetes
+name: couponservice
+type: application
+version: 0.1.0
+
+...
+files:
+  couponservice-0.1.0.tgz: sha256:74b33780e49d1314c95287dcffcf0d793f2244bed35c1b84286bfc5cd68d2099
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJjLNZlCRClB5L9iiygrgAAKV0MACCm196d+N/qi6RhvR7mMQWm
+2t8pW+VKsDtvX26V86Sol+Tx2Kr2qBmtGzbW6pSmw5DbmnVtM36pycH1ImEdkJ4N
+5tPZcsuoT/vgY5L6TpocM8skIpgdx5SVZJT7MjCFGrRBoUIg8WlOC8IoKE3K7c0k
+uUr05dZ1uzLK+Kj/K4bk9zKDIs3GXStjVGcIJEjpFONx00Ukx+/0AtGZalEpPa+g
+lK5zD5eJF+h1MVxZB9GV/Mvd+tQ5GazpihA8mE2aISozaOwRT+mfjJVPNymMzOA8
+jbgjVfcc93M7sNB1DyUMGwF9BCjg9Je020UXRP4YxFmBh3E5dE/O2EY8wNtZxIJV
+sws0ooUgrk4uleVS6A+BQkUEh7GScahpeeQuZWL/r0/+6lTH1YG6Ihlrr6GGoj+X
+6sBK/Z0hZaRC8GO0k+LOyol7xGQ77gaiu2DGcuCg/+BcMVzH1G/u2Ga7HmL7LYWG
+kAXdWxVFcjdsrKwa8bNnXwuRR3NMJuZ96DiRVUqTLg==
+=hpXL
+-----END PGP SIGNATURE-----

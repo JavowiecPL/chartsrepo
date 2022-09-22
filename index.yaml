@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  couponservice:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-22T23:41:10.298153256+02:00"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.35
+    description: A Helm chart for Kubernetes
+    digest: 74b33780e49d1314c95287dcffcf0d793f2244bed35c1b84286bfc5cd68d2099
+    name: couponservice
+    type: application
+    urls:
+    - couponservice-0.1.0.tgz
+    version: 0.1.0
   secondchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-22T23:27:48.864835308+02:00"
+    created: "2022-09-22T23:41:10.300787061+02:00"
     dependencies:
     - name: tomcat
       repository: https://charts.bitnami.com/bitnami
@@ -18,7 +33,7 @@ entries:
   securedsecondchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-22T23:27:48.867428734+02:00"
+    created: "2022-09-22T23:41:10.303180292+02:00"
     dependencies:
     - name: tomcat
       repository: https://charts.bitnami.com/bitnami
@@ -30,4 +45,4 @@ entries:
     urls:
     - securedsecondchart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-22T23:27:48.861897131+02:00"
+generated: "2022-09-22T23:41:10.292817508+02:00"
